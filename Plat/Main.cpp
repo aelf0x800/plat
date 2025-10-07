@@ -1,11 +1,11 @@
 #include <raylib.h>
-#include "World/Tokeniser.hpp"
+#include "World/TokenList.hpp"
 
 int main() 
 {
-    Tokeniser t;
+    Plat::World::TokenList t("Hello World { } ,=;");
 
-    InitWindow(600, 600, "test");
+/*    InitWindow(600, 600, "test");
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
@@ -15,5 +15,5 @@ int main()
         EndDrawing();
     }
 
-    CloseWindow();
+    CloseWindow();*/
 }

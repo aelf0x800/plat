@@ -24,7 +24,7 @@ add_executable(
     Plat 
     Plat/Main.cpp 
     Plat/World/File.cpp
-    Plat/World/Tokeniser.cpp
+    Plat/World/TokenList.cpp
 )
 
 # Add libraries to link to the program
